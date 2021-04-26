@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+}
+.question {
+  margin-bottom: 60px;
+}
+.question .description {
+  font-size: 18px;
+}
+
+/********************************
+ * QUESTION 5.
+ *******************************/
+.q5-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #efefef;
+}
+.q5-wrapper .q5-block {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: #333;
+}
+
+/* Add your code after this line */
+.q5-block:nth-child(odd) {
+  background: #00ff00;
+}
+
+/********************************
+ * QUESTION 6.
+ *******************************/
+/* Add your code after this line */
+.header {
+  text-align: center;
+  color: #fff;
+  background: #f00;
+}
+
+.file-name {
+  color: #00f;
+  font-weight: bold;
+}
+#my-name {
+  text-transform: uppercase;
+}
